@@ -50,3 +50,112 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.cele{
+    max-width:400px;
+
+}
+
+
+.navigace{
+    display:flex;
+    text-align:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    list-style:none;
+
+}
+
+
+
+.superappka{
+    font-weight:700;
+}
+
+.fialova{
+    background-image: linear-gradient( #25133d, #aa5477);
+    color: white;
+    margin:0;
+    padding: 1.7rem;
+    font-size: 1.7rem;
+    
+}
+.slogan{
+    font-weight: 300;
+    text-align:left;
+
+}
+
+h1{
+    font-weight:  700;
+}
+
+.odkazy{
+    padding-left:0px;
+   
+    
+}
+
+ul a {
+    display:flex;
+    flex-direction: column;
+    font-size:0.8rem;
+    text-decoration:none;
+    color:#48418e;
+    
+
+}
+.odkazy a{
+    text-align:center;
+    color:white;
+    text-decoration: none;
+    line-height: 3;
+    padding: 10px;
+    
+    
+}
+
+.stahnout,
+.viceinfo {
+    border:white solid 1px;
+    text-decoration: none;
+    margin:0px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    list-style:none;
+    border-radius: 10px;
+
+}
+
+.stahnout{
+    background-color:#25133d;
+}
+
+
+h2,
+.cestuj-text,
+.chatuj-text,
+.zazij-text,
+.konecpaticka{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+}
+
+h2{
+    color:#48418e;
+    
+}
+
+
+.cestuj-text,
+.chatuj-text,
+.zazij-text{
+    margin: 25px;
+}
+svg{
+    max-width:20%;
+}
+
